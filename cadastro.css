@@ -1,0 +1,135 @@
+body {
+    max-width: 390px;
+    background-color: #4198BE;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-ziuu {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 344px;
+    height: 620px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#criar {
+    margin: 0%;
+    margin-right: 140px;
+    margin-top: 10px;
+}
+
+#possui {
+    margin: 0%;
+    margin-right: 100px;
+    margin-top: 10px;
+    color: grey;
+}
+
+#txt {
+    margin: 0%;
+    margin-top: 40px;
+    margin-left: 15px;
+    color: gray;
+}
+
+#box {
+    width: 320px;
+    height: 30px;
+    margin-left: 7.5px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: gray;    
+}
+
+#cadastrar {
+    margin-top: 20px;
+    border: 0px;
+    background-color: #1877F2;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size:medium;
+    border-radius: 10px;
+}
+
+#txt-cadastrar {
+    margin: 0%;
+}
+
+#ou {
+    color: grey;
+
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    background-color: #1877F2;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#txt-facebook {
+    margin: 0%;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+
+#facebook {
+    margin-left: 10px;
+    margin-top: 9px;
+    height: 32px;
+}
+
+.google {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#txt-google {
+    margin: 0%;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+}
+
+#google {
+    margin: 0%;
+    margin-left: 10px;
+    margin-top: 9px;
+    height: 26px;
+}
